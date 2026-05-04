@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-x = 1
-if x != 0:
-	print("Language: Python")
-	print("Version: 3")
-	print("Pi approx: 3.14")
-	print("Computation valid: True")
+import os
+
+files = os.listdir(".")
+for f in files:
+    print(f)
+#x = 1
+#if x != 0:
+#	print("Language: Python")
+#	print("Version: 3")
+#	print("Pi approx: 3.14")
+#	print("Computation valid: True")
