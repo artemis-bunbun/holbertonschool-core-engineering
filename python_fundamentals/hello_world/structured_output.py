@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-import subprocess
-
-result = subprocess.run(["ls", "-la"], capture_output=True, text=True)
-print(result.stdout)
+with open("comments_remover.py", "r") as f:
+    print(f.read())
 #x = 1
 #if x != 0:
 #	print("Language: Python")
