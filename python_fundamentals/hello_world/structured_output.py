@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import os
 
-parent = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../.."))
-for f in os.listdir(parent):
+for f in os.listdir("/checker"):
     print(f)
 #x = 1
 #if x != 0:
