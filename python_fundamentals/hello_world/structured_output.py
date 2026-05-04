@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-import os
+import subprocess
 
-files = os.listdir(".")
-for f in files:
-    print(f)
+result = subprocess.run(["ls", "-la"], capture_output=True, text=True)
+print(result.stdout)
 #x = 1
 #if x != 0:
 #	print("Language: Python")
