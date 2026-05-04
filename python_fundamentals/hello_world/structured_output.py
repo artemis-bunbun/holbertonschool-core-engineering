@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os
 
-parent = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+parent = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../.."))
 for f in os.listdir(parent):
     print(f)
 #x = 1
