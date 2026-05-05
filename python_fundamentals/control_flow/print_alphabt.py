@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-import string
-
-for letter in string.ascii_lowercase:
+for i in range(ord('a'), ord('z') + 1):
+    letter = chr(i)
     if letter not in ['e', 'q']:
         print(letter, end=" ")
