@@ -6,4 +6,3 @@ for i in range(ord('a'), ord('z') + 1):
     if letter not in ['e', 'q']:
         alphabt += letter
 print("{}".format(alphabt), end="")
-print("")
