@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-
+alphabet = list(range(97, 123))
 alphabt = ""
-for i in range(ord('a'), ord('z') + 1):
-    letter = chr(i)
-    if letter not in ['e', 'q']:
+
+for ascii in alphabet:
+    if ascii != 101 and ascii != 113:
+        letter = chr(ascii)
         alphabt += letter
+
 print("{}".format(alphabt), end="")
