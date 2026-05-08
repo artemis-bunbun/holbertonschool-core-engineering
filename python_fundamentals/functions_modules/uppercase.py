@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
+from variable_load_5 import a
 
-def uppercase(str):
-    new_str = ""
-
-    for c in str:
-        if 97 <= ord(c) <= 122:
-            new_str += chr(ord(c) - 32)
-        else:
-            new_str += c
-    print("{}".format(new_str))
+if __name__ == "__main__":
+    print("{}".format(a))
