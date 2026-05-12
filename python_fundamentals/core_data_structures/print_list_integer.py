@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
-def print_list_integer(my_list=[]):
-    for i in my_list:
-        print("{:d}".format(i))
+def safe_print_integer(value):
+    try:
+        print("{:d}".format(value))
+        return True
+    except (ValueError, TypeError):
+        return False
