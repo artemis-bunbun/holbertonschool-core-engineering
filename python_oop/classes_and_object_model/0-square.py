@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""idk filler stuff"""
+
+"""
+idk filler stuff
+"""
+
 class Square:
-    """more filler comments"""
+    """
+    more filler comments
+    """
     pass
